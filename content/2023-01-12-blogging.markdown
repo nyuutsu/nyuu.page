@@ -1,0 +1,6 @@
+title: Hello, World!
+date: 2023-1-12 19:13
+category: blog
+tags: personal
+
+My dear partner Alyssa has encouraged me to post more. I've decided to try blogging.
