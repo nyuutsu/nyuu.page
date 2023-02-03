@@ -1,17 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
-
 import os
 import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'https://eev.ee'
+SITEURL = 'https://nyuu.page'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
@@ -25,8 +18,3 @@ CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = 'output-publish/'
-
-# Following items are often useful when publishing
-
-DISQUS_SITENAME = 'veekun'
-GOOGLE_ANALYTICS = 'UA-25539054-1'
