@@ -5,18 +5,18 @@
 
 {% block content %}
 <section class="categories">
-    <h1>Categories</h1>
+  <h1>Categories</h1>
 
-    <ul>
-        {% for category, articles in categories %}
-        <li>
-            <a href="{{ SITEURL }}/{{ category.url }}">
-                {{ lib.category_glyph(category) }}
-                {{ category.name }}
-            </a>
-            — {{ articles | length }}
-        </li>
-        {% endfor %}
-    </ul>
+  <ul>
+    {% for category, articles in categories %}
+    <li>
+      <a href="{{ SITEURL }}/{{ category.url }}">
+        {{ lib.category_glyph(category) }}
+        {{ category.name }}
+      </a>
+      — {{ articles | length }}
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 {% endblock %}
