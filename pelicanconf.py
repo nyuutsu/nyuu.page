@@ -28,26 +28,16 @@ LINKS_EX = ((
     '#f6b441', 'category-blog.png',
     "detailed, thoughtful prose about why computers are the worst",
 ), (
-    'dev',
-    '/dev/',
-    '#ee7300', 'category-dev.png',
-    "updates on what i'm doing lately",
-), (
     'release',
     '/release/',
     '#4a83c5', 'category-release.png',
     "things i've released into the wild, and maybe my thoughts on them",
 ), (
-#    'art',
-#    '/art/',
-#    '#41c518', 'category-art.png',
-#    "i'm learning to draw, here are the results",
-#), (
-#    'cats',
-#    'http://lexyeevee.tumblr.com/tagged/sphynx',
-#    '#deb46a', 'category-cat-photos.png',
-#    "our house is overrun with them and they are the best",
-#), (
+    'art',
+    '/art/',
+    '#41c518', 'category-art.png',
+    "i'm learning to draw, here are the results",
+), (
     'everything',
     '/everything/',
     '#c57be6', 'category-everything.png',
