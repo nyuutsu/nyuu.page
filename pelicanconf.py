@@ -75,11 +75,6 @@ SOCIAL_EX = ((
     '#3088d4', 'logo-mastodon.png',
     "trickle of bad jokes",
 ), (
-    'patreon',
-    'https://www.patreon.com/eevee',
-    '#ff5900', 'logo-patreon.png',
-    "help pay my salary",
-), (
     'square',
     'https://cash.me/$eevee',
     '#29c501', 'logo-square-cash.png',
