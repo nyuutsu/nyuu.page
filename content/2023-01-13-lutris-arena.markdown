@@ -7,7 +7,7 @@ Magic: the Gathering Arena is a way to play Magic: the Gathering on your compute
 
 You could play on Cockatrice, for free. Which is a great option if you have a buddy to play with. But there aren't *that* many opponents available. And sometimes they play, but they throw chat tantrums about your deck or the game. The rules enforcement is manual, which I find charming overall but impractical when i'm not on a voice call against my opponent. You cannot just click "find me an opponent" and get handed an ISO-standard 'game of magic'.
 
-You could play on Magic Online and you'll have all the formats, card rental+trade+sale, first-class stops and yields, and worthwhile opponents. If you can get it to run decently, which I was never able to on linux. The performance was bad and the fonts never looked quite right.
+You could play on Magic Online and you'll have all the formats, card rental and trade, actually good stops and yields, and strong opponents. If you can get it to run decently, which I was never able to on linux. The performance was bad and the text never looked quite right.
 
 So maybe trying to run MTGA looks pretty appealing anyway, since maybe it'll run smoothly if you can get it to run at all.
 
