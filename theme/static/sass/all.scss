@@ -5,11 +5,20 @@ $font-sans: 'Source Sans Pro', Ubuntu, sans-serif;
 $font-mono: 'Source Code Pro', 'Inconsolata', 'DejaVu Sans Mono', monospace;
 
 // colors, plucked from the header image
+// 🐍 none of the "eevee colors" are redeclared elsewhere
+// 🐍 link color & also a filter over "subtle patterns". home & blog.
+// 🐍 making it white made bg go from blackish to brownish
 $eevee-blue: #4078CF;
+// 🐍 blog sidebar bg color, "but wait: there's more" bg, one-backtick codeblock
 $eevee-brown: #F2D07F;
+// 🐍 blog main column bg color. 000 just brings it from cream to tan, though
 $eevee-beige: #FAEF98;
+// 🐍 "but wait: there's more" text color. white = light cream. black = black
 $eevee-socks: #DAAA6C;
+// 🐍 accents: dark line between main column and sidebar, dark line under "blog", dark line between posts
 $eevee-border: #6B5337;
+
+//and that'd be why the colors don't translate exactly
 $body-bg: scale-color($eevee-blue, $saturation: -25%, $lightness: -83%);
 // used for text directly on the background
 $offwhite: scale-color($eevee-blue, $lightness: +75%);
@@ -19,6 +28,7 @@ $main-accent: scale-color($eevee-border, $lightness: +30%);
 
 $link-normal: $eevee-blue;
 $link-visited: adjust-hue($eevee-blue, 60);
+// 🐍 magenta
 $link-hover: adjust-hue($eevee-blue, -240);
 
 $block-bg: scale-color($eevee-brown, $saturation: -50%, $lightness: +70%);
@@ -118,6 +128,7 @@ body {
   margin: 0 auto;
 
   font-family: $font-sans;
+  // 🐍 blog text color for: main body text, post title, codeblocks
   color: #202020;
 }
 
@@ -415,7 +426,9 @@ body > footer {
             font-family: $font-sans;
           }
           p {
+            // 🐍 changing this to like 12em doesn't do anything, so, p color might do nothing also?
             font-size: 0.9em;
+            // 🐍 I don't think this does anything!
             color: #808080;
           }
           h2, p {
@@ -439,9 +452,11 @@ body > footer {
           -webkit-filter: none;
         }
         .-label h2 {
+          // 🐍 this sets the color of the text on the sidebar cagegory nav elements e.g. "release"
           color: #202020;
         }
         .-label p {
+          // 🐍 this appears to not do anything
           color: #404040;
         }
       }
@@ -619,6 +634,8 @@ article {
     border-left: 0.25em solid var(unquote(--fg-color));
 
     --quip: "Note";
+
+    // 🐍 in the color picker tool, this is the background/highlight color of selected text segments in asides. in normal conditions this might not appear at all!
     --fg-color: #d0d0d0;
     --bg-color: unquote("#d0d0d020");
     --image: url(/theme/images/asides/note.png);
@@ -644,47 +661,55 @@ article {
   aside.aside--well-actually {
     --quip: "Well, actually,";
     --fg-color: #d77bba;
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --bg-color: unquote("#d77bba20");
     --image: url(/theme/images/asides/well-actually.png);
   }
   aside.aside--note-from-future {
     --quip: "Note from the future";
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --fg-color: #5b6ee1;
     --bg-color: unquote("#5b6ee120");
     --image: url(/theme/images/asides/note-from-the-future.png);
   }
   aside.aside--computers-are-bad {
     --quip: "Computers are bad";
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --fg-color: #ac3232;
     --bg-color: unquote("#ac323220");
     --image: url(/theme/images/asides/computers-are-bad.png);
   }
   aside.aside--fascinating-tangent {
     --quip: "Fascinating tangent";
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --fg-color: #3f3f74;
     --bg-color: unquote("#3f3f7420");
     --image: url(/theme/images/asides/fascinating-tangent.png);
   }
   aside.aside--matter-of-taste {
     --quip: "A matter of taste";
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --fg-color: #76428a;
     --bg-color: unquote("#76428a20");
     --image: url(/theme/images/asides/matter-of-taste.png);
   }
   aside.aside--look-out {
     --quip: "Look out!";
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --fg-color: #df7126;
     --bg-color: unquote("#df712620");
     --image: url(/theme/images/asides/look-out.png);
   }
   aside.aside--tricky-tradeoff {
     --quip: "Tricky tradeoff";
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --fg-color: #45283c;
     --bg-color: unquote("#45283c20");
     --image: url(/theme/images/asides/tricky-tradeoff.png);
   }
   aside.aside--deceptively-difficult {
     --quip: "Deceptively difficult";
+    // 🐍 this and its compatriots are the left-border accent bar of the asides
     --fg-color: #4b692f;
     --bg-color: unquote("#4b692f20");
     --image: url(/theme/images/asides/deceptively-difficult.png);
@@ -786,6 +811,7 @@ a.photo {
     font-weight: normal;
     font-family: 'Love Ya Like A Sister', cursive;
     text-align: center;
+    // 🐍 sure enough: this is the color used for the [usually one-word] categories on the homepage e.e. "art", "code"
     color: #cfddf3;
 
     // dotted lines on either side of the heading
@@ -930,7 +956,9 @@ a.photo {
   .tile {
     box-sizing: border-box;
     position: relative;
-
+    // 🐍 do these "tiles" exist?
+    // 🐍 could this be overridden by the time it would matter? is this here to prevent a "css flash"?
+    // 🐍 changing this on its own doesn't appear to do anything
     color: #cfddf3;
 
     header {
@@ -940,6 +968,8 @@ a.photo {
         display: block;
         width: 100%;
         margin-bottom: 1em;
+        // 🐍 "tile-illus" makes this sound like it's a deprecated feature. the one the porygon jpg is from.
+        // 🐍 changing this doesn't appear to do anything
         box-shadow: 0 0 0.125em black;
       }
 
@@ -951,10 +981,12 @@ a.photo {
         font-size: 0.66em;
         line-height: 1;
         font-family: monospace;
+        // 🐍 the tile's date annotation text color
         color: rgba(100%, 100%, 100%, 0.5);
       }
       h2 {
         margin: 0;
+        // 🐍 the actual text on the tile
         color: white;
         text-shadow:
           0.5px 0.5px 0.5px black,
@@ -977,6 +1009,7 @@ a.photo {
     border: 1px solid black;
     border-radius: 4px;
     background: #666;
+    // 🐍 these contain no text, so, shrug
     color: white;
     box-shadow:
       inset 0 0 0 40em rgba(0, 0, 0, 0.1),
@@ -1110,6 +1143,7 @@ section.archives {
 
       // Make the weekly roundups less overt
       &.category-dev {
+        // 🐍 i'm PRETTY SURE these make the "dev" items look more muted
         font-size: 1rem;
         color: #606060;
       }
@@ -1165,6 +1199,8 @@ section.archives {
   margin-left: 1em;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+// PYGMENTS (solarized)
 
 ////////////////////////////////////////////////////////////////////////////////
 // PYGMENTS (solarized)
@@ -1331,7 +1367,6 @@ code {
   padding: 0;
   background: none;
 }
-
 
 ////////////////////////////////////////////////////////////////////////////////
 // COLORBOX
