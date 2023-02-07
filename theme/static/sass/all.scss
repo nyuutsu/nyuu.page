@@ -4,36 +4,29 @@ $font-prose: Merriweather, serif;
 $font-sans: 'Source Sans Pro', Ubuntu, sans-serif;
 $font-mono: 'Source Code Pro', 'Inconsolata', 'DejaVu Sans Mono', monospace;
 
-// colors, plucked from the header image
-// 🐍 none of the "eevee colors" are redeclared elsewhere
-// 🐍 link color & also a filter over "subtle patterns". home & blog.
-// 🐍 making it white made bg go from blackish to brownish
-$eevee-blue: #4078CF;
-// 🐍 blog sidebar bg color, "but wait: there's more" bg, one-backtick codeblock
-$eevee-brown: #F2D07F;
-// 🐍 blog main column bg color. 000 just brings it from cream to tan, though
-$eevee-beige: #FAEF98;
-// 🐍 "but wait: there's more" text color. white = light cream. black = black
-$eevee-socks: #DAAA6C;
-// 🐍 accents: dark line between main column and sidebar, dark line under "blog", dark line between posts
-$eevee-border: #6B5337;
+// pallete alyssa picked out for me!
+$alyssa-manatee: #9795a4;
+$alyssa-black: #060709; // blog background color
+$alyssa-rustred: #af858a; // hover highlights
+// ↓ home & blog; link color & also a filter over "subtle patterns"
+$alyssa-linkblue: #818ca4; // links
+$alyssa-royalpurple: #736571; // blog, dark line accents
 
-//and that'd be why the colors don't translate exactly
-$body-bg: scale-color($eevee-blue, $saturation: -25%, $lightness: -83%);
-// used for text directly on the background
-$offwhite: scale-color($eevee-blue, $lightness: +75%);
-$main-bg: scale-color($eevee-beige, $saturation: -50%, $lightness: +90%);
-$sidebar-bg: scale-color($eevee-brown, $saturation: -20%, $lightness: +70%);
-$main-accent: scale-color($eevee-border, $lightness: +30%);
+$solarized-cream: #ffffd7;
 
-$link-normal: $eevee-blue;
-$link-visited: adjust-hue($eevee-blue, 60);
-// 🐍 magenta
-$link-hover: adjust-hue($eevee-blue, -240);
+$body-bg: scale-color($alyssa-linkblue, $saturation: -25%, $lightness: -83%);
+$offwhite: scale-color($alyssa-linkblue, $lightness: +75%); // titletext
+$main-bg: scale-color($alyssa-black, $saturation: -50%); // , $lightness: +90%
+$sidebar-bg: scale-color($alyssa-black, $saturation: -20%, $lightness: +20%);
+$main-accent: scale-color($alyssa-royalpurple, $lightness: +30%);
 
-$block-bg: scale-color($eevee-brown, $saturation: -50%, $lightness: +70%);
-$block-fg: scale-color($eevee-socks, $saturation: -40%, $lightness: -40%);
-$block-border: scale-color($eevee-socks, $saturation: -40%, $lightness: +10%);
+$link-normal: $alyssa-linkblue;
+$link-visited: adjust-hue($alyssa-linkblue, 60);
+$link-hover: adjust-hue($alyssa-linkblue, -240);
+
+$block-bg: scale-color($alyssa-royalpurple, $saturation: -20%);
+$block-fg: scale-color($solarized-cream);
+$block-border: scale-color($alyssa-rustred, $saturation: -40%, $lightness: +10%);
 
 @mixin block-link() {
   padding: 0.5em 0.75em;
@@ -119,8 +112,8 @@ a {
 html {
   // This has to be on the root element for rem to work
   font-size: 16px;
-
-  background: url(/theme/images/concrete_seamless.png) $body-bg;
+  //background: url(/theme/images/concrete_seamless.png) $body-bg;
+  background: url(/theme/images/inflicted.png) $body-bg;
 }
 body {
   width: 100%;
@@ -129,14 +122,14 @@ body {
 
   font-family: $font-sans;
   // 🐍 blog text color for: main body text, post title, codeblocks
-  color: #202020;
+  color: $solarized-cream; 
 }
 
 body > header {
   position: relative;
   margin: 1em 0 0;
   min-height: 128px;  // background height
-  background: url(/theme/images/home-eevee2.png) no-repeat left bottom / 96px;
+  background: url(/theme/images/logo-code.png) no-repeat left bottom / 96px;
   /* lol css */
   image-rendering: -moz-crisp-edges;  /* fx */
   image-rendering: pixelated;  /* chrome, and the thing i actually mean */
@@ -221,7 +214,7 @@ body > header {
 
 body > #main {
   display: flex;
-  border: 1px solid $eevee-border;
+  border: 1px solid $alyssa-royalpurple;
 
   #content {
     flex: 1;
@@ -426,7 +419,6 @@ body > footer {
             font-family: $font-sans;
           }
           p {
-            // 🐍 changing this to like 12em doesn't do anything, so, p color might do nothing also?
             font-size: 0.9em;
             // 🐍 I don't think this does anything!
             color: #808080;
@@ -452,7 +444,7 @@ body > footer {
           -webkit-filter: none;
         }
         .-label h2 {
-          // 🐍 this sets the color of the text on the sidebar cagegory nav elements e.g. "release"
+          // 🐍 sets the on-hover color of the text on the sidebar cagegory nav elements e.g. "release"
           color: #202020;
         }
         .-label p {
@@ -860,7 +852,7 @@ a.photo {
     min-height: 128px;
     padding-left: 96px;
     border-bottom: 2px solid black;
-    background: url(/theme/images/home-eevee2.png) no-repeat left bottom / 96px;
+    background: url(/theme/images/logo-code.png) no-repeat left bottom / 96px;
     /* lol css */
     image-rendering: -moz-crisp-edges;  /* fx */
     image-rendering: pixelated;  /* chrome, and the thing i actually mean */
@@ -884,7 +876,7 @@ a.photo {
     left: 0;
     right: 0;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
   }
   a.button {
     color: white;
@@ -1228,8 +1220,8 @@ table.highlighttable {
   margin: 1em 0;
   border-collapse: collapse;
   line-height: 1.2;
-  background: url(/theme/images/textured_paper.png) $solarized-base3;
-  box-shadow: 0 0 1em $solarized-base2;
+  background: url(/theme/images/textured_paper.png) $solarized-base03;
+  box-shadow: 0 0 1em $solarized-base02;
 
   pre {
     margin: 0;
@@ -1237,7 +1229,7 @@ table.highlighttable {
 
   td {
     padding: 0.5em;
-    border: 1px solid $solarized-base2;
+    border: 1px solid $solarized-base02;
   }
   td.linenos {
     width: 2em;
@@ -1247,8 +1239,8 @@ table.highlighttable {
     //width: min-content;
     padding-left: 1em;
     text-align: right;
-    color: $solarized-base1;
-    background: url(/theme/images/textured_paper.png) $solarized-base2;
+    color: $solarized-base01;
+    background: url(/theme/images/textured_paper.png) $solarized-base02;
     vertical-align: top;
   }
 
@@ -1267,9 +1259,9 @@ h6 {
   font-family: sans-serif;
   font-weight: normal;
   text-align: center;
-  background: $solarized-base2;
-  text-shadow: 1px 1px $solarized-base3;
-  color: $solarized-base1;
+  background: $solarized-base02;
+  text-shadow: 1px 1px $solarized-base03;
+  color: $solarized-base01;
 }
 h6 + table.hilighttable {
   margin-top: 0;
