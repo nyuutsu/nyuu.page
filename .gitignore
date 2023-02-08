@@ -9,3 +9,6 @@ __pycache__/
 /srv.pid
 /output/
 /output-publish/
+
+/theme/static/sass/all.css
+/theme/static/sass/all.css.map
