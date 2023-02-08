@@ -2,22 +2,18 @@ This is the source for (most of) my website [nyuu.page](https://nyuu.page). It's
 
 If you want to use this, you may want the following: `git`, `python`, `pelican`, `markdown`, `rsync`, `sass`, a server…
 
-  If you want a *server*: I'm a fan of [Caddy](https://caddyserver.com/). The relevant part of my caddyfile can be found [here](https://gist.github.com/nyuutsu/5b11bce0e7c415926934caa08994ab4c1)
+  If you want a *server*: I'm a fan of [Caddy](https://caddyserver.com/). The relevant part of my caddyfile can be found [here](https://gist.github.com/nyuutsu/5b11bce0e7c415926934caa08994ab4c)
 
-All that said, if you want to use this:
+All that said, if you want to use this as-is for some reason:
 
-* You'll probably want the pelican plugins, so get those
+1. You'll need the pelican plugins
 
 `git submodule update --init`
 
-* Generate css
+2. Alias i'm using to generate and deploy is very silly, and is listed below
 
-`sass /theme/static/sass/all.scss /theme/static/sass/all.css`
+`alias nyuu.page='cd ~/repos/nyuu.page && sass theme/static/sass/all.scss theme/static/sass/all.css && pelican content && rsync -avc --delete output/ nyuu.page:/var/www/html/ && rm theme/static/sass/all.css & rm theme/static/sass/all.css.map'`
 
-* Though: your workflow should probably involve auto compiling the sass on change and running `make devserver` so all it takes to test a change is saving your work, tabbing, and hitting f5.
-
-* Alias i'm using to generate and deploy is listed below. Probably change the url in the command unless you're trying to become me.
-
-`alias nyuu.page='cd ~/repos/nyuu.page && pelican content && rsync -avc --delete output/ nyuu.page:/var/www/html/'`
+Whereas if you want to make changes then you should probably set up something to recompile the css every time you make changes, and run `make devserver` to make observing the changes easy.
 
 [Pelican]: http://docs.getpelican.com/
