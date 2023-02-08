@@ -8,7 +8,7 @@ $font-mono: 'Source Code Pro', 'Inconsolata', 'DejaVu Sans Mono', monospace;
 $alyssa-manatee: #9795a4;
 $alyssa-black: #060709; // blog background color
 $alyssa-rustred: #af858a; // hover highlights
-// ↓ home & blog; link color & also a filter over "subtle patterns"
+// ↓ home & blog; link color & also a filter over background
 $alyssa-linkblue: #818ca4; // links
 $alyssa-royalpurple: #736571; // blog, dark line accents
 
@@ -113,7 +113,8 @@ html {
   // This has to be on the root element for rem to work
   font-size: 16px;
   //background: url(/theme/images/concrete_seamless.png) $body-bg;
-  background: url(/theme/images/inflicted.png) $body-bg;
+  //background: url(/theme/images/inflicted.png) $body-bg;
+  background: url(/theme/images/onesquare2.png) $body-bg;
 }
 body {
   width: 100%;
@@ -149,7 +150,8 @@ body > header {
     bottom: 0;
     right: 0;
     padding: 0;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 5px 5px 0 $main-bg;
     font-weight: normal;  // bold doesn't work well with that font
     color: $offwhite;
 
@@ -224,6 +226,8 @@ body > #main {
     // mechanisms on children to work
     min-width: 0;
     background: url(/theme/images/textured_paper.png) $main-bg;
+    // ↓ this is probably a bit too jarring but I really want it to work…
+    //background: url(/theme/images/inflicted.png) $main-bg;
   }
   #sidebar {
     width: 20em;
@@ -367,7 +371,7 @@ body > footer {
     text-decoration: none;
   }
 
-  .eevee-navigation {
+  .navigation {
     $size: 1.5rem;
     $padding: 0.25rem;
     $total-size: $size + $padding * 2;
@@ -792,6 +796,11 @@ a.photo {
 .homepage {
   margin: 1em;
 
+  // the fancy pastel background is great but makes text sort of hard to read.
+  // apply a text-gentler one and apply a smidge of padding to frame it
+  background: url(/theme/images/inflicted.png) $body-bg;
+  padding: 1rem;
+
   // silly hack to make footer look better
   & + footer {
     margin: 1em;
@@ -801,7 +810,8 @@ a.photo {
     font-size: 3em;
     margin: 0.75em 0 0.25em;
     font-weight: normal;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 1px 1px 0 $main-bg;
     text-align: center;
     // 🐍 sure enough: this is the color used for the [usually one-word] categories on the homepage e.e. "art", "code"
     color: #cfddf3;
@@ -852,7 +862,7 @@ a.photo {
     min-height: 128px;
     padding-left: 96px;
     border-bottom: 2px solid black;
-    background: url(/theme/images/logo-code.png) no-repeat left bottom / 96px;
+    background: url(/theme/images/logo-code.png) no-repeat left top / 96px;
     /* lol css */
     image-rendering: -moz-crisp-edges;  /* fx */
     image-rendering: pixelated;  /* chrome, and the thing i actually mean */
