@@ -8,10 +8,10 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-SSH_HOST=rankurusu.veekun.com
-SSH_PORT=22
-SSH_USER=eevee
-SSH_TARGET_DIR=/var/www/eev.ee
+#SSH_HOST=nyuu.page
+#SSH_PORT=22
+#SSH_USER=nyuu
+#SSH_TARGET_DIR=/var/www/html
 
 
 DEBUG ?= 0

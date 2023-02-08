@@ -1,6 +1,4 @@
-This is the source for (most of) my website [nyuu.page](https://nyuu.page).
-
-It's powered by [Pelican][], a Python static blog system. The [theme was developed by eevee](https://github.com/eevee/eev.ee) and changed from there.
+This is the source for (most of) my website [nyuu.page](https://nyuu.page). It's powered by [Pelican][], a Python static blog system. I cribbed a bunch from [eevee's site](https://github.com/eevee/eev.ee).
 
 If you want to use this, you may want the following: `git`, `python`, `pelican`, `markdown`, `rsync`, `sass`, a server…
 
@@ -12,9 +10,11 @@ All that said, if you want to use this:
 
 `git submodule update --init`
 
-* The css is written in sass, so the actual `.css` is pretty gnarly. If you want to make changes, make them to the `.scss` file and regenerate the css like so
+* The css is written in sass, so the actual `.css` is pretty gnarly. If you want to make changes, make them to the `.scss` file and  compile the css like so
 
 `sass /theme/static/sass/all.scss /theme/static/css/all.css`
+
+* However: your workflow should probably involve auto compiling the sass on change and running `make devserver` so all it takes to test a change is saving your work, tabbing, and hitting f5.
 
 * Alias i'm using to generate and deploy is listed below. Probably change the url in the command unless you're trying to become me.
 

@@ -23,24 +23,24 @@ AUTHOR_FEED_RSS = None
 LINKS_EX = ((
   'blog',
   '/blog/',
-  '#f6b441', 'category-blog.png',
+  '#9966cc', 'category-blog.png',
   "detailed, thoughtful prose about why computers are the worst",
 ), (
-  'release',
-  '/release/',
-  '#4a83c5', 'category-release.png',
-  "things i've released into the wild, and maybe my thoughts on them",
-), (
-  'art',
-  '/art/',
-  '#41c518', 'category-art.png',
-  "i'm learning to draw, here are the results",
-), (
-  'everything',
-  '/everything/',
-  '#c57be6', 'category-everything.png',
-  "why limit yourself when you can have it all",
-), (
+#  'release',
+#  '/release/',
+#  '#4a83c5', 'category-release.png',
+#  "things i've released into the wild, and maybe my thoughts on them",
+#), (
+#  'art',
+#  '/art/',
+#  '#41c518', 'category-art.png',
+#  "i'm learning to draw, here are the results",
+#), (
+#  'everything',
+#  '/everything/',
+#  '#c57be6', 'category-everything.png',
+#  "why limit yourself when you can have it all",
+#), (
   'archives',
   '/everything/archives/',
   '#399ccd', 'category-archives.png',
