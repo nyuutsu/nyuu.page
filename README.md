@@ -10,11 +10,11 @@ All that said, if you want to use this:
 
 `git submodule update --init`
 
-* The css is written in sass, so the actual `.css` is pretty gnarly. If you want to make changes, make them to the `.scss` file and  compile the css like so
+* Generate css
 
-`sass /theme/static/sass/all.scss /theme/static/css/all.css`
+`sass /theme/static/sass/all.scss /theme/static/sass/all.css`
 
-* However: your workflow should probably involve auto compiling the sass on change and running `make devserver` so all it takes to test a change is saving your work, tabbing, and hitting f5.
+* Though: your workflow should probably involve auto compiling the sass on change and running `make devserver` so all it takes to test a change is saving your work, tabbing, and hitting f5.
 
 * Alias i'm using to generate and deploy is listed below. Probably change the url in the command unless you're trying to become me.
 
