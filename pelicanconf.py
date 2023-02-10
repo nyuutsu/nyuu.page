@@ -24,7 +24,12 @@ LINKS_EX = ((
   'blog',
   '/blog/',
   '#9966cc', 'category-blog.png',
-  "detailed, thoughtful prose about why computers are the worst",
+  "「unlimited post works」",
+), (
+  'notes',
+  '/notes/',
+  '#9966cc', 'category-notes.png',
+  "same great taste; less filling",
 ), (
 #  'release',
 #  '/release/',
@@ -36,11 +41,11 @@ LINKS_EX = ((
 #  '#41c518', 'category-art.png',
 #  "i'm learning to draw, here are the results",
 #), (
-#  'everything',
-#  '/everything/',
-#  '#c57be6', 'category-everything.png',
-#  "why limit yourself when you can have it all",
-#), (
+  'everything',
+  '/everything/',
+  '#c57be6', 'category-everything.png',
+  "why limit yourself when you can have it all",
+), (
   'archives',
   '/everything/archives/',
   '#399ccd', 'category-archives.png',
