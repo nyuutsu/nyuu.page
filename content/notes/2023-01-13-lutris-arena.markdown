@@ -1,6 +1,6 @@
 title: Installing Magic: the Gathering Arena through Lutris
 date: 2023-1-13 11:06
-category: blog
+category: notes
 tags: magic, wine
 
 Magic: the Gathering Arena is a way to play Magic: the Gathering on your computer. It is designed in the way of a [gacha mobile game](https://en.wikipedia.org/wiki/Gacha_game), so, you probably shouldn't play it.
