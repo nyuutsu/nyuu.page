@@ -261,6 +261,12 @@ body > footer {
   p {
     margin: 0;
   }
+  p.source {
+    background-color: $sidebar-bg;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    
+  }
   a {
     color: scale-color($link-normal, $lightness: 30%);
 
@@ -603,7 +609,7 @@ article {
     border: none;
 
     &::after {
-      content: '✩\a0\a0\a0\a0✩\a0\a0\a0\a0✩';
+      content: '⚕';
       display: block;
       text-align: center;
       font-size: 1.2em;
