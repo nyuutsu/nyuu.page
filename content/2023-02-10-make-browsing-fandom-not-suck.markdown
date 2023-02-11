@@ -3,7 +3,7 @@ date: 2023-2-10 15:00
 category: blog
 tags: ui, web
 
-tl;dr: put this in your ublock filter list if you want to have an easy life:
+tl;dr: put this in your [ublock filter list](https://nyuu.page/media/fandom-footnote/howtofilter.webm) if you want to have an easy life:
 
 ```
 ! fandom.com
