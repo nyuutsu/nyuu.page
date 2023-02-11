@@ -115,7 +115,7 @@ html {
   // This has to be on the root element for rem to work
   font-size: 16px;
   //background: url(/theme/images/concrete_seamless.png) $body-bg;
-  //background: url(/theme/images/inflicted.png) $body-bg;
+  
   background: url(/theme/images/onesquare2.png) $body-bg;
 }
 body {
@@ -752,6 +752,7 @@ a.photo {
   // TODO this is copied from .entry-content img
   img {
     @extend %fancy-image;
+    height: 100%;
   }
 }
 

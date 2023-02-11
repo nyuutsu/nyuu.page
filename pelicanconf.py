@@ -237,6 +237,8 @@ PHOTO_RESIZE_JOBS = -1
 # Plugin config for thumbnailer
 IMAGE_PATH = 'media'
 THUMBNAIL_DIR = 'media'
-THUMBNAIL_SIZES = dict(m='?x300')
+# this did work, but I'm not clear on what else is needed to get it to do so
+# maybe manually removing the pycaches? absurd if true
+THUMBNAIL_SIZES = dict(m='?x500')
 THUMBNAIL_KEEP_NAME = False
 THUMBNAIL_KEEP_TREE = True
