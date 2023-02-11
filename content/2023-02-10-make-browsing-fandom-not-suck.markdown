@@ -15,7 +15,7 @@ fandom.com##.page__right-rail
 fandom.com##.render-wiki-recommendations > div
 ```
 
-See gallery below for a "before" and "after". See below the fold for elaboration.
+See below for a "before" and "after". See below the fold for elaboration.
 
 {% gallery /media/fandom-note
   before.png no filters
@@ -45,7 +45,7 @@ The thing is, Fandom uses *hella* advertising on its pages. The user experience 
 
 The first image is a full-page screenshot of a page on a fandom wiki as its owners intend it to be seen. The second image is a map (is there a better word for this?) of the *content* on that page. The green is content, the black is advertisements and cruft. You really should use an adblocker. Even [the FBI]'s position on this is "you, the user, should use an adblocker when going online".
 
-If you install [ublock origin] and turn on the top one or two default filters, and try again: there's *less* advertising, but half of the vertical length is still intrawiki advertisements, a lot of the horizontal length is cruft and more advertisements, and there's an autoplay video advertisement down in the lower right corner. It's really not a good scene and I'd strongly recommend filtering out the crap as discussed in "[this note]".
+If you install [ublock origin] and turn on the top one or two default filters, and try again: there's *less* advertising, but half of the vertical length is still intrawiki advertisements, a lot of the horizontal length is cruft and more advertisements, and there's an autoplay video advertisement down in the lower right corner. It's really not a good scene and I'd strongly recommend filtering out the crap.
 
 Here is a comparison, of what the page looks like with no filtering, with "standard filters", and with the additional filters I'm using:
 
