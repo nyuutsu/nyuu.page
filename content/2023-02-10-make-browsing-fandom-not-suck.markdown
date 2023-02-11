@@ -1,9 +1,26 @@
-title: content farming, fandom, load times
+title: How to make browsing fandom.com not suck
 date: 2023-2-10 15:00
 category: blog
 tags: ui, web
 
-Earlier today I posted [this note] & promised elaboration. I have delivered.
+tl;dr: put this in your ublock filter list if you want to have an easy life:
+
+```
+! fandom.com
+fandom.com##.global-navigation
+fandom.com##.WikiaRail.right-rail-wrapper
+fandom.com##.mcf-wrapper
+fandom.com##.global-footer
+fandom.com##.page__right-rail
+fandom.com##.render-wiki-recommendations > div
+```
+
+See gallery below for a "before" and "after". See below the fold for elaboration.
+
+{% gallery /media/fandom-note
+  before.png no filters
+  after.png filters
+%}
 
 <!-- more -->
 
@@ -49,11 +66,11 @@ There isn't much of a page size or load speed difference between the "some adblo
   yesfilter-custom.png more adblock
 %}
 
-The "more adblock" view pulls in about 2/3 as much stuff as "some adblock", but both decompress to being of roughly equal size anyway. They finish loading at roughly the same time. Both blow the unfiltered version out of the water, in the sense that without adblock, the page continues loading more advertisements in the background forever:
+The "more adblock" view pulls in about 2/3 as much stuff as "some adblock", but both decompress to being of roughly equal size anyway. They finish loading at roughly the same time. Both blow the unfiltered version out of the water, in the sense that without adblock, the page continues loading more advertisements in the background forever. Below are two screenshots taken at arbitrarily-selected points after the visible content was finished loading.
 
 {% illus /media/fandom-post/nofilter-a.png after a few seconds %}
 
-{% illus /media/fandom-post/nofilter-a.png a bit later and it's still going %}
+{% illus /media/fandom-post/nofilter-b.png a bit later and it's still going %}
 
 ¹ the google infobox currently gets this [wrong] due to how the "abridged series" fanwork gets this wrong as a joke, and that fanwork has a wiki
 
