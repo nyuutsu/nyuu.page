@@ -237,6 +237,6 @@ PHOTO_RESIZE_JOBS = -1
 # Plugin config for thumbnailer
 IMAGE_PATH = 'media'
 THUMBNAIL_DIR = 'media'
-THUMBNAIL_SIZES = dict(m='?x150')
+THUMBNAIL_SIZES = dict(m='?x300')
 THUMBNAIL_KEEP_NAME = False
 THUMBNAIL_KEEP_TREE = True

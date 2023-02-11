@@ -806,7 +806,7 @@ a.photo {
 
   // the fancy pastel background is great but makes text sort of hard to read.
   // apply a text-gentler one and apply a smidge of padding to frame it
-  background: url(/theme/images/inflicted.png) $body-bg;
+  background: $alyssa-black;
   padding: 1rem;
 
   // silly hack to make footer look better
