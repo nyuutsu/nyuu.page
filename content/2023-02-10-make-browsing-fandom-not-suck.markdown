@@ -3,17 +3,29 @@ date: 2023-2-10 15:00
 category: blog
 tags: ui, web
 
-tl;dr: put this in your [ublock filter list](https://nyuu.page/media/fandom-footnote/howtofilter.webm) if you want to have an easy life:
+*amended '23/2/12 to add more filters*
+
+tl;dr: put this in your ublock filter list if you want to have an easy life:
 
 ```
-! fandom.com
+! 2023-02-10 fandom.com
 fandom.com##.global-navigation
 fandom.com##.WikiaRail.right-rail-wrapper
 fandom.com##.mcf-wrapper
 fandom.com##.global-footer
 fandom.com##.page__right-rail
 fandom.com##.render-wiki-recommendations > div
+! 2023-02-12 fandom.com
+fandom.com###WikiaBar
+fandom.com##.is-visible.fandom-sticky-header
+fandom.com##.marketing-notifications
+fandom.com##.page-footer
+! 2023-02-12 fandom.com mobile-specific
+fandom.com##.recirculation-prefooter
+fandom.com##.article-footer
 ```
+
+video demonstration of how to do this can be found: [here!]
 
 See below for a "before" and "after". See below the fold for elaboration.
 
@@ -72,15 +84,15 @@ The "more adblock" view pulls in about 2/3 as much stuff as "some adblock", but 
 
 {% illus /media/fandom-post/nofilter-b.png a bit later and it's still going %}
 
-¹ the google infobox currently gets this [wrong] due to how the "abridged series" fanwork gets this wrong as a joke, and that fanwork has a wiki
+<small>¹ the google infobox currently gets this [wrong] due to how the "abridged series" fanwork gets this wrong as a joke, and that fanwork has a wiki</small>
 
-² actually, it might be rent-seeking, which would be a problem
+<small>² actually, it might be rent-seeking, which would be a problem</small>
 
-³ If you'd like to try it yourself: probably every browser's dev tools allow this; in Firefox: `f12` → network → ☑ 'disable cache' → `f5`
+<small>³ If you'd like to try it yourself: probably every browser's dev tools allow this; in Firefox: `f12` → network → ☑ 'disable cache' → `f5`</small>
 
 ---
 
-[this note]: https://nyuu.page/notes/2023/02/10/fandom%20ublock%20gist/
+[here]: https://nyuu.page/media/fandom-footnote/howtofilter.webm
 [Content farming]: https://en.wikipedia.org/wiki/Content_farm
 [about a decade ago]: https://en.wikipedia.org/wiki/Google_Panda
 [$15 an article]: https://server.moneysavingmom.com/how-to-make-money-writing-for-ehow-com/

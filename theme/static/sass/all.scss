@@ -57,6 +57,50 @@ $block-border: scale-color($alyssa-rustred, $saturation: -40%, $lightness: +10%)
 }
 
 ////////////////////////////////////////////////////////////////////////////////
+// tcg css-only card preview thing
+
+.prematter {
+  font-variant: small-caps;
+}
+
+.showhim {
+  border-radius: 0.5rem;
+  background-color: $sidebar-bg;
+  display: inline-block;
+
+  &::before {
+    //text-shadow: 1px 1px 0 $solarized-cream;
+    text-shadow: 
+    -1px 0px 0px $solarized-cream,
+    1px 0px 0px $solarized-cream,
+    0px -1px 0px $solarized-cream,
+    0px 1px 0px $solarized-cream;      
+    content: '🎴 \a0 ';
+  }
+}
+
+.showme {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+  width: clamp(150px, 300px, 50vw);
+}
+
+.showhim:hover .showme {
+  visibility: visible;
+  position: absolute;
+  padding: 0.25rem;
+  border-radius: 1rem;
+  z-index: 9999;
+  background-image: linear-gradient(to bottom, rgba($solarized-cream, 0.7), rgba($alyssa-royalpurple, 0.6));
+  //box-shadow: 0 0 1em $alyssa-black;
+  box-shadow:
+    inset 0 2em 1em -1em rgba(100%, 100%, 100%, 0.125),
+    inset 0 -2em 1em -1em rgba(0%, 0%, 0%, 0.25),      
+    inset 0 0 0.25em rgba(100%, 100%, 100%, 0.5);
+}
+
+////////////////////////////////////////////////////////////////////////////////
 // GENERAL
 
 h1, h2, h3, h4, h5, h6 {
