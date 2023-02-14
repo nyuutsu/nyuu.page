@@ -48,7 +48,7 @@ Konami has some to-my-knowledge uniquely terrible labor practices <sup>\[[1]\] \
 
 * requiring all artists to sign NDAs! artists are not allowed to take credit for their work in any way
 
-The "vibe" is, "by fiat, this game is a black-box created by Konami™. it does not contain artistic flourishes or influences by individuals." It's a spooky & corporate! This sort of a labor culture is not conducive to getting much primary source material about what working on the game was like, and why a design decision was made, which is a shame. There's a wealth of information out there about how *Magic* is made now & how it was made [in the past]. I'm told some similar resources exist for Pokemon, though I don't know this for sure.
+The "vibe" is, "by fiat, this game is a black-box created by Konami™. it does not contain artistic flourishes or influences by individuals." It's a spooky, corporate sort of vibe. This sort of a labor culture is not conducive to getting much primary source material about what working on the game was like, and why a design decision was made, which is a shame. There's a wealth of information out there about how *Magic* is made now & how it was made [in the past]. I'm told some similar resources exist for Pokemon, though I don't know this for sure.
 
 ### jargon
 
@@ -155,7 +155,7 @@ E1's [contents] don't make much sense. It has 126 cards, here is their type brea
 
     3. and "their attack/defense are roughly ⚔1500/🛡1500
 
-It is weird that they want to spend sixty creatures worth of space in the set on expressing what are basically three ideas, especially  since #1 is so underpowered nobody would want to use it.
+    It is weird that they want to spend sixty creatures worth of space in the set on expressing what are basically three ideas, especially  since #1 is so underpowered nobody would want to use it.
 
 * About 10% of the creatures are "fusions". Fusion is a mechanic where you can summon specific creatures from out of your sideboard & without it costing you your summon for that turn. To do this, you cast a specific spell, <span class="showhim">
   <a href="https://static.wikia.nocookie.net/yugioh/images/e/e5/Polymerization-LOB-NA-SR-1E.jpg/revision/latest?cb=20090329051842">Polymerization
@@ -175,17 +175,18 @@ The first [Japanese set][ocg 1st] comes out in January of '99. Sets continue to 
 
 Regardless: Japanese Yu-Gi-Oh got lots of new sets over next few years. One of these [sets][ocg phantom god] came out in August of '00. E1's cards were sourced from Japense sets released between January '99 and August '00. That's [a year and six months] and probably³ twenty or so sets and a few hundred cards.
 
-* More weirdness got introduced: The first set's strongest 4★ has an attack of ⚔1200. The set contains three ⚔1200 creatures. There is exactly one 4★; the limited cardpool forces you to include some 3★s and probably some 2 and/or 1★s also. The player probably does not have the ability to field playsets of all the ⚔1200 creatures *anyway* since there are no card shops or vendors other than "the vending machine the packs come from".
+* J1's strongest 4★ has an attack of ⚔1200. The set contains three ⚔1200 creatures. J1 had exactly one 4★; the limited cardpool forced you to include some 3★s and probably some 2 and/or 1★s also. The player probably does not have the ability to field playsets of all the ⚔1200 creatures *anyway* since there are no card shops or vendors other than "the vending machine the packs come from".
 
-    By the time all the sets drawn on in the first English set had come out, the power level for a <=5★ had risen *considerably*, in terms of how strong the individual options were, and in how many options existed. You no longer had to include a bunch of bad stuff just to reach the deck size requirement.
+    By the time all the sets drawn on in E1 set had come out, the power level for a ≤5★ had risen *considerably*, in terms of how strong the individual options were, and in how many options existed. You no longer had to include a bunch of bad stuff just to reach the deck size requirement.
 
-    As for why the cards *selected for inclusion in the English set* were selected: my best guess is that the localizers were selecting for iconic-ness and for hitting a target amount of cards at each amount of ★s, even though at this point 1★ 2★ and 3★ were now basically design relics rather than meaningful content in their own right. The same is probably true of the fusions. It certainly wasn't done to improve the play experience or average competitive relevance of a typical pack.
+    As for how the cards *selected for inclusion in E1* were selected: my best guess is that the localizers were selecting for iconic-ness and for hitting a target amount of cards at each amount of ★s, even though at this point 1★ 2★ and 3★ were now basically design relics rather than meaningful content in their own right. The same is probably true of the fusions. It certainly wasn't done to improve the play experience or average competitive relevance of a typical pack.
 
 * The names on the cards are weird: this was often done in localization & not present on the originals! <span class="showhim">
   <a href="https://static.wikia.nocookie.net/yugioh/images/3/30/SteelOgreGrotto1-LOB-NA-C-1E.jpg/revision/latest?cb=20090329055229">Steel Ogre Grotto #1
     <img src="/media/ygo-history/SteelOgreGrotto1-LOB-NA-C-1E.webp" class="showme">
-  </a> 
-</span>'s name in Japanese is 
+  </a>
+<!--Use a zero width space ("​") between a closing tag and a quotation mark or the smart-quotifier gets confused-->
+</span>​'s name in Japanese is 
 <ruby>
 鋼 <rp>(</rp><rt>こう</rt><rp>)</rp>
 </ruby>

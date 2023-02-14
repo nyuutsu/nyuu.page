@@ -150,7 +150,16 @@ In cases where I didn't have a desired card in time for the deck registration ph
 
 <small>¹ evolution was bad at the time. it might be good now.</small>
 
-<small>² [devolution spray], [Pokemon breeder]</small>
+<small>² <span class="showhim">
+  <a href="https://pkmncards.com/card/devolution-spray-base-set-bs-72/">Devolution Spray
+    <img src="/media/pkmn-history/devolution-spray-base-set-bs-72.webp" class="showme">
+  </a> 
+</span>,
+<span class="showhim">
+  <a href="https://pkmncards.com/card/pokemon-breeder-base-set-bs-76/">Pokemon Breeder
+    <img src="/media/pkmn-history/pokemon-breeder-base-set-bs-76.webp" class="showme">
+  </a> 
+</span></small>
 
 <small>³ of the quarter that don't have evolutions evolve, a bunch gain evolutions in Jungle and/or Fossil. This game is <em>about evolution</em>.</small>
 
@@ -159,12 +168,8 @@ In cases where I didn't have a desired card in time for the deck registration ph
 [base set]: https://pkmncards.com/set/base-set/
 [jungle]: https://bulbapedia.bulbagarden.net/wiki/Jungle_(TCG)
 [fossil]: https://bulbapedia.bulbagarden.net/wiki/Fossil_(TCG)
-[devolution spray]: https://nyuu.page/media/pkmn-history/devolution-spray-base-set-bs-72.webp
-[Pokemon breeder]: https://nyuu.page/media/pkmn-history/Pokemon-breeder-base-set-bs-76.webp
 [stone rain]: https://nyuu.page/media/pkmn-history/9ed-221★-stone-rain.png
 [discord server]: https://discord.gg/hqRmAb6h
 [legacy Magic]: https://discord.gg/np5CFwh
 [strategic resources]: https://jklaczPokemon.com/
 [tutor]: https://mtg.fandom.com/wiki/Tutor
-
-
