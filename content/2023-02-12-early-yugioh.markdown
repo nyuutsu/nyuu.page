@@ -5,16 +5,7 @@ tags: trading card games, Yu-Gi-Oh!™
 
 <!--Technology is incredible!-->
 
-<div class="prematter">
-  This post contains ✨on-hover card images✨, indicated by the <a href="https://en.wikipedia.org/wiki/Hanafuda">hanafuda card symbol, "🎴"</a>, like so:
-  <span class="showhim">
-    <a href="https://scryfall.com/card/dka/24/thalia-guardian-of-thraben">Thalia!
-      <img src="/media/ygo-history/thals.png" class="showme">
-    </a> 
-  </span>
-</div>
-
----
+{% prematter %}
 
 I am a huge fan of card games, in general. The one that has held the lion's share of my time and mindshare is *[Magic]*, [legacy] Magic in particular. I will eventually put down my thoughts on how to win at Magic, but this is not that post.
 
@@ -157,11 +148,8 @@ E1's [contents] don't make much sense. It has 126 cards, here is their type brea
 
     It is weird that they want to spend sixty creatures worth of space in the set on expressing what are basically three ideas, especially  since #1 is so underpowered nobody would want to use it.
 
-* About 10% of the creatures are "fusions". Fusion is a mechanic where you can summon specific creatures from out of your sideboard & without it costing you your summon for that turn. To do this, you cast a specific spell, <span class="showhim">
-  <a href="https://static.wikia.nocookie.net/yugioh/images/e/e5/Polymerization-LOB-NA-SR-1E.jpg/revision/latest?cb=20090329051842">Polymerization
-    <img src="/media/ygo-history/Polymerization-LOB-NA-SR-1E.webp" class="showme">
-  </a> 
-</span>, and sacrifice-or-discard two specific (as in, each fusion card lists exactly two other cards it is fused out of) other monsters as "fusion material". ***Wow! Those are some steep costs***. You're committing **three** specific cards to do this, you need to find all three of them, one of those cards does nothing on its own, and the other two have no particular selling point other than that they can be used for this.
+* About 10% of the creatures are "fusions". Fusion is a mechanic where you can summon specific creatures from out of your sideboard & without it costing you your summon for that turn. To do this, you cast a specific spell, 
+{% unicard /media/ygo-history/Polymerization-LOB-NA-SR-1E.webp https://static.wikia.nocookie.net/yugioh/images/e/e5/Polymerization-LOB-NA-SR-1E.jpg/revision/latest?cb=20090329051842 polymerization%}, and sacrifice-or-discard two specific (as in, each fusion card lists exactly two other cards it is fused out of) other monsters as "fusion material". ***Wow! Those are some steep costs***. You're committing **three** specific cards to do this, you need to find all three of them, one of those cards does nothing on its own, and the other two have no particular selling point other than that they can be used for this.
 
     If you get a fusion out of a pack, you can't use it unless you own the other three cards. If you get *any* fusion, you can't use it without a polymerization. Polymerization is at one of the higher rarities; there is no particular reason you would expect to own it unless you went out and bought it third-party.
 
@@ -180,13 +168,8 @@ Regardless: Japanese Yu-Gi-Oh got lots of new sets over next few years. One of t
     By the time all the sets drawn on in E1 set had come out, the power level for a ≤5★ had risen *considerably*, in terms of how strong the individual options were, and in how many options existed. You no longer had to include a bunch of bad stuff just to reach the deck size requirement.
 
     As for how the cards *selected for inclusion in E1* were selected: my best guess is that the localizers were selecting for iconic-ness and for hitting a target amount of cards at each amount of ★s, even though at this point 1★ 2★ and 3★ were now basically design relics rather than meaningful content in their own right. The same is probably true of the fusions. It certainly wasn't done to improve the play experience or average competitive relevance of a typical pack.
-
-* The names on the cards are weird: this was often done in localization & not present on the originals! <span class="showhim">
-  <a href="https://static.wikia.nocookie.net/yugioh/images/3/30/SteelOgreGrotto1-LOB-NA-C-1E.jpg/revision/latest?cb=20090329055229">Steel Ogre Grotto #1
-    <img src="/media/ygo-history/SteelOgreGrotto1-LOB-NA-C-1E.webp" class="showme">
-  </a>
 <!--Use a zero width space ("​") between a closing tag and a quotation mark or the smart-quotifier gets confused-->
-</span>​'s name in Japanese is 
+* The names on the cards are weird: this was often done in localization & not present on the originals! {%unicard /media/ygo-history/SteelOgreGrotto1-LOB-NA-C-1E.webp https://static.wikia.nocookie.net/yugioh/images/3/30/SteelOgreGrotto1-LOB-NA-C-1E.jpg/revision/latest?cb=20090329055229 Steel Ogre Grotto #1 %}​'s name in Japanese is  
 <ruby>
 鋼 <rp>(</rp><rt>こう</rt><rp>)</rp>
 </ruby>
@@ -206,9 +189,9 @@ Regardless: Japanese Yu-Gi-Oh got lots of new sets over next few years. One of t
 
 ### conclusion
 
-I will add a proper conclusion later. Tentatively the conclusion is that making a game is really hard.
+Making a game is really hard.
 
-<small>¹ Duel monsters is, in some early material, referred to by the less catchy name "Magic and Wizards"</small>
+<small>¹ Duel Monsters is, in some early material, referred to by the less catchy name "Magic and Wizards"</small>
 
 <small>² I am a bit curious about just how much each of these early sets overlaps with the other ones. The information is out there but it I don't think anyone has actually analyzed it in this way. For that matter: I don't think there are any tools quite on Scryfall's level, here.</small>
 

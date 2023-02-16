@@ -3,16 +3,7 @@ date: 2023-2-13 00:00
 category: blog
 tags: trading card games, Pokemon
 
-<div class="prematter">
-  This post contains ✨on-hover card images✨, indicated by the <a href="https://en.wikipedia.org/wiki/Hanafuda">hanafuda card symbol, "🎴"</a>, like so:
-  <span class="showhim">
-    <a href="https://scryfall.com/card/dka/24/thalia-guardian-of-thraben">Thalia!
-      <img src="/media/pkmn-history/thals.png" class="showme">
-    </a> 
-  </span>
-</div>
-
----
+{% prematter %}
 
 One of the things I'm keeping score on when reviewing a game is, how many of its mechanics *matter* to someone playing to win? Let's turn back the clock, to when the Pokemon Trading Card Game was first released in the US. How did it fare making its mechanics relevant to competitive players? I think it did badly; here's why.
 
@@ -26,13 +17,9 @@ I am going to explain mechanics by alluding and comparing to what *Magic* does.
 
 At the beginning, Pokemon had [one set][Base Set]; the Base Set. We can look at its composition to make reasonable guesses about what the designers were thinking. If they emphasized a mechanic (featured on lots of cards, or rarer ones, or shinier and/or cooler ones, or it gets allocated a lot of the rules-space) then there's a good chance they thought it was important.
 
-It *looks* like the core mechanical selling point was supposed to be about a rising power level over the course of the game via the *evolution* mechanic. The way evolution works is, you can use later, stronger evolutionary stages of a given Pokemon, but only if you already have the unevolved form in play, and only if it has survived at its current stage for at least one turn already. Some Pokemon evolve no times, some once, and some twice. The cards have rarities; the packs they came in would come with more commons and fewer rares. Second-stage evolutions were pretty much exclusively found at the highest rarity and made up much of the rare pool. There were a few fancy, shiny foil-art cards; all of them Pokemon, most of them second-stage evolutions.  The marketing I remember seeing as a kid was about getting to use evolution to play a <span class="showhim">
-  <a href="https://pkmncards.com/card/charizard-base-set-bs-4/">Charizard
-    <img src="/media/pkmn-history/charizard-base-set-bs-4.webp" class="showme">
-  </a> 
-</span>. Evolution is flavorful; it's cool; it's strategically **awful**¹.
+It *looks* like the core mechanical selling point was supposed to be about a rising power level over the course of the game via the *evolution* mechanic. The way evolution works is, you can use later, stronger evolutionary stages of a given Pokemon, but fonly if you already have the unevolved form in play, and only if it has survived at its current stage for at least one turn already. Some Pokemon evolve no times, some once, and some twice. The cards have rarities; the packs they came in would come with more commons and fewer rares. Second-stage evolutions were pretty much exclusively found at the highest rarity and made up much of the rare pool. There were a few fancy, shiny foil-art cards; all of them Pokemon, most of them second-stage evolutions.  The marketing I remember seeing as a kid was about getting to use evolution to play a {% unicard /media/pkmn-history/charizard-base-set-bs-4.webp https://pkmncards.com/card/charizard-base-set-bs-4/ Charizard %}. Evolution is flavorful; it's cool; it's strategically *awful*.[ref]evolution was bad at the time. it might be good now[/ref]
 
-*Aside: the first set has 102 cards. The card-type breakdown is 69 Pokemon, 26, trainers, 7 energy. The trainers focus on lots of different mechanics. Two of them² are "about" evolution and an additional handful could benefit evolution-based strategies but weren't *about* them. It'd be fair to say trainers are not intended to be "about" evolution. Pokemon are **about evolution**. 53/69<sup>(77%!)</sup> of them evolve or are evolved³.*
+*Aside: the first set has 102 cards. The card-type breakdown is 69 Pokemon, 26, trainers, 7 energy. The trainers focus on lots of different mechanics. Two of them ({% unicard /media/pkmn-history/devolution-spray-base-set-bs-72.webp https://pkmncards.com/card/devolution-spray-base-set-bs-72/ Devolution Spray %}, {% unicard /media/pkmn-history/pokemon-breeder-base-set-bs-76.webp https://pkmncards.com/card/pokemon-breeder-base-set-bs-76/ Pokemon Breeder %}) are "about" evolution and an additional handful could benefit evolution-based strategies but weren't *about* them. It'd be fair to say trainers are not intended to be "about" evolution. Pokemon are **about evolution**. 53/69<sup>(77%!)</sup> of them evolve or are evolved*.[ref]of the quarter that don't have evolutions evolve, a bunch gain evolutions in Jungle and/or Fossil. This game is <em>about evolution[/ref]
 
 Evolution could be great if the evolved forms were sufficiently stronger (more health, more damage per energy, more raw damage) than the non-evolving Pokemon. They aren't; evolving isn't profitable. Your attacks get stronger, which is flashy and cool! But your attacks also get more expensive, which is a huge problem and makes it impossible to *actually do damage*.
 
@@ -48,32 +35,7 @@ An important idea in trading card games: over the course of the game, the amount
 
 Destroying an energy in Pokemon is loosely analogous to destroying a land in Magic.
 
-Roughly a quarter of every competitively viable early Pokemon deck consists of uncounterable zero-cost
-<span class="showhim">
-  <a href="https://scryfall.com/card/9ed/221%E2%98%85/stone-rain">Stone Rain
-    <img src="/media/pkmn-history/9ed-221★-stone-rain.png" class="showme">
-  </a> 
-</span>s! Every sixty-card deck contains four of each of the following: 
-<span class="showhim">
-  <a href="https://pkmncards.com/card/energy-removal-base-set-bs-92/">Energy Removal
-    <img src="/media/pkmn-history/energy-removal-base-set-bs-92.webp" class="showme">
-  </a> 
-</span> (destroy an energy),
-<span class="showhim">
-  <a href="https://pkmncards.com/card/super-energy-removal-base-set-bs-79/">Super Energy Removal
-    <img src="/media/pkmn-history/super-energy-removal-base-set-bs-79.webp" class="showme">
-  </a> 
-</span> (destroy *two* energy), 
-<span class="showhim">
-  <a href="https://pkmncards.com/card/item-finder-base-set-bs-74/">Item Finder
-    <img src="/media/pkmn-history/item-finder-base-set-bs-74.webp" class="showme">
-  </a> 
-</span> (graveyard recursion for your energy removals), and
-<span class="showhim">
-  <a href="https://pkmncards.com/card/computer-search-base-set-bs-71/">Computer Search
-    <img src="/media/pkmn-history/computer-search-base-set-bs-71.webp" class="showme">
-  </a> 
-</span> (unconditional [tutor]/search library for whatever card you want; can find an energy removal).
+Roughly a quarter of every competitively viable early Pokemon deck consists of uncounterable zero-cost {% unicard /media/pkmn-history/9ed-221★-stone-rain.png https://scryfall.com/card/9ed/221%E2%98%85/stone-rain Stone Rain %}s! Every sixty-card deck contains four of each of the following: {% unicard /media/pkmn-history/energy-removal-base-set-bs-92.webp https://pkmncards.com/card/energy-removal-base-set-bs-92/ Energy Removal %} (destroy an energy), {% unicard /media/pkmn-history/super-energy-removal-base-set-bs-79.webp https://pkmncards.com/card/super-energy-removal-base-set-bs-79/ Super Energy Removal %} (destroy *two* energy), {% unicard /media/pkmn-history/item-finder-base-set-bs-74.webp https://pkmncards.com/card/item-finder-base-set-bs-74/ Item Finder %} (graveyard recursion for your energy removals), and {% unicard /media/pkmn-history/computer-search-base-set-bs-71.webp https://pkmncards.com/card/computer-search-base-set-bs-71/ Computer Search %} (unconditional [tutor]/search library for whatever card you want; can find an energy removal).
 
 We know that every viable deck runs the maximum allowed amount of the above cards, since blowing up your opponent's resources is pretty much the strongest thing you can be doing. In fact: every viable deck has something like *thirty* cards (half of the deck!) in common with all other viable decks, since there are so many overwhelmingly generically powerful effects in the format).
 
@@ -147,23 +109,6 @@ In cases where I didn't have a desired card in time for the deck registration ph
   pkmndeck2.jpg rain dance
   pkmndeck3.jpg stall
 %}
-
-<small>¹ evolution was bad at the time. it might be good now.</small>
-
-<small>² <span class="showhim">
-  <a href="https://pkmncards.com/card/devolution-spray-base-set-bs-72/">Devolution Spray
-    <img src="/media/pkmn-history/devolution-spray-base-set-bs-72.webp" class="showme">
-  </a> 
-</span>,
-<span class="showhim">
-  <a href="https://pkmncards.com/card/pokemon-breeder-base-set-bs-76/">Pokemon Breeder
-    <img src="/media/pkmn-history/pokemon-breeder-base-set-bs-76.webp" class="showme">
-  </a> 
-</span></small>
-
-<small>³ of the quarter that don't have evolutions evolve, a bunch gain evolutions in Jungle and/or Fossil. This game is <em>about evolution</em>.</small>
-
---- 
 
 [base set]: https://pkmncards.com/set/base-set/
 [jungle]: https://bulbapedia.bulbagarden.net/wiki/Jungle_(TCG)
