@@ -25,7 +25,7 @@ fandom.com##.recirculation-prefooter
 fandom.com##.article-footer
 ```
 
-video demonstration of how to do this can be found: [here!]
+video demonstration of how to do this can be found: [here]!
 
 See below for a "before" and "after". See below the fold for elaboration.
 
