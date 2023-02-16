@@ -70,9 +70,6 @@ SOCIAL_EX = ((
 ))
 TWITTER_USERNAME = 'shroomwaview'
 GITHUB_URL = 'https://github.com/nyuutsu'
-# i hate this stupid eyesore and i'm pretty sure my audience knows how to
-# search a website with their favorite search engine
-SEARCH_BOX = False
 
 DEFAULT_PAGINATION = 17
 DEFAULT_ORPHANS = 4
@@ -173,7 +170,6 @@ FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-
 ### Plugins
 # Some minor hackery to have multiple PLUGIN_PATHs, since I want both canonical
 # plugins and one of my own...
@@ -183,6 +179,10 @@ sys.path.insert(0, os.path.dirname(__file__))
 import eeveeblog.liquid_gallery
 import eeveeblog.liquid_illus
 import eeveeblog.liquid_photo
+import nyuublog.liquid_card
+import nyuublog.liquid_anchcard
+import nyuublog.liquid_unicard
+import nyuublog.liquid_prematter
 
 # Add a Pygments lexer, which seems to require hacking Pygments guts?
 from eeveeblog.rgbasm_lexer import RGBASMLexer
@@ -196,6 +196,10 @@ pygments.lexers._mapping.LEXERS['RGBASMLexer'] = (
 
 PLUGIN_PATHS = ["pelican-plugins.git"]
 PLUGINS = [
+  nyuublog.liquid_card,
+  nyuublog.liquid_unicard,
+  nyuublog.liquid_anchcard,
+  nyuublog.liquid_prematter,
   eeveeblog.liquid_gallery,
   eeveeblog.liquid_illus,
   eeveeblog.liquid_photo,
@@ -204,6 +208,7 @@ PLUGINS = [
   'photos',
   'render_math',
   'thumbnailer',
+  'simple_footnotes'
 ]
 
 # Plugin config for summary
