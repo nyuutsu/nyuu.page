@@ -39,62 +39,12 @@ Roughly a quarter of every competitively viable early Pokemon deck consists of u
 
 We know that every viable deck runs the maximum allowed amount of the above cards, since blowing up your opponent's resources is pretty much the strongest thing you can be doing. In fact: every viable deck has something like *thirty* cards (half of the deck!) in common with all other viable decks, since there are so many overwhelmingly generically powerful effects in the format).
 
-Attacks must be cheap to be viable, since your opponent is going to be constantly destroying your energies. Attacks of evolved Pokemon are *expensive*; they'll often cost three or four energy pips. Evolutions overall are too hard to get into play and too easy to end up unable to act due to lack of energy. The more reliable strategy is to pick from a <span class="showhim">
-  <a href="https://pkmncards.com/card/hitmonchan-base-set-bs-7/">shortlist
-    <img src="/media/pkmn-history/hitmonchan-base-set-bs-7.webp" class="showme">
-  </a> 
-</span> of
-<span class="showhim">
-  <a href="https://pkmncards.com/card/electabuzz-base-set-bs-20/">powerful
-    <img src="/media/pkmn-history/electabuzz-base-set-bs-20.webp" class="showme">
-  </a> 
-</span>
-<span class="showhim">
-  <a href="https://pkmncards.com/card/mewtwo-base-set-bs-10/">non-evolving
-    <img src="/media/pkmn-history/mewtwo-base-set-bs-10.webp" class="showme">
-  </a> 
-</span>
-<span class="showhim">
-  <a href="https://pkmncards.com/card/chansey-base-set-bs-3/">options
-    <img src="/media/pkmn-history/chansey-base-set-bs-3.webp" class="showme">
-  </a> 
-</span>. The next two sets, Jungle and Fossil, were designed similarly: they added many Pokemon, but the ones with competitive relevance continued to be
-<span class="showhim">
-  <a href="https://pkmncards.com/card/moltres-fossil-fo-12/">efficient
-    <img src="/media/pkmn-history/moltres-fossil-fo-12.webp" class="showme">
-  </a> 
-</span>
-<span class="showhim">
-  <a href="https://pkmncards.com/card/magmar-fossil-fo-39/">non
-    <img src="/media/pkmn-history/magmar-fossil-fo-39.webp" class="showme">
-  </a> 
-</span>-
-<span class="showhim">
-  <a href="https://pkmncards.com/card/scyther-jungle-ju-10/">evolving
-    <img src="/media/pkmn-history/scyther-jungle-ju-10.webp" class="showme">
-  </a> 
-</span>
-<span class="showhim">
-  <a href="https://pkmncards.com/card/mewtwo-wizards-black-star-promos-3/">pokemon
-    <img src="/media/pkmn-history/mewtwo-wizards-black-star-promos-3.webp" class="showme">
-  </a> 
-</span>; The Jungle and Fossil additions didn't change the "evolved is a really big downside" dynamic.
+Attacks must be cheap to be viable, since your opponent is going to be constantly destroying your energies. Attacks of evolved Pokemon are *expensive*; they'll often cost three or four energy pips. Evolutions overall are too hard to get into play and too easy to end up unable to act due to lack of energy. The more reliable strategy is to pick from a {% unicard /media/pkmn-history/hitmonchan-base-set-bs-7.webp https://pkmncards.com/card/hitmonchan-base-set-bs-7/ shortlist %} of {% unicard /media/pkmn-history/electabuzz-base-set-bs-20.webp https://pkmncards.com/card/electabuzz-base-set-bs-20/ powerful %} {% unicard /media/pkmn-history/mewtwo-base-set-bs-10.webp https://pkmncards.com/card/mewtwo-base-set-bs-10/ non-evolving %} {% unicard /media/pkmn-history/chansey-base-set-bs-3.webp https://pkmncards.com/card/chansey-base-set-bs-3/ options %}. The next two sets, Jungle and Fossil, were designed similarly: they added many Pokemon, but the ones with competitive relevance continued to be {% unicard /media/pkmn-history/moltres-fossil-fo-12.webp https://pkmncards.com/card/moltres-fossil-fo-12/ efficient %} {% unicard /media/pkmn-history/magmar-fossil-fo-39.webp https://pkmncards.com/card/magmar-fossil-fo-39/ non%}-{% unicard /media/pkmn-history/scyther-jungle-ju-10.webp https://pkmncards.com/card/scyther-jungle-ju-10/ evolving %} {% unicard /media/pkmn-history/mewtwo-wizards-black-star-promos-3.webp https://pkmncards.com/card/mewtwo-wizards-black-star-promos-3/ Pokemon %}; The Jungle and Fossil additions didn't change the "evolved is a really big downside" dynamic.
 
 Pokemon had large competitive tournaments almost immediately after it was brought to the US. This is unusual for a new trading card game; it's common for competitive support to emerge only later. In the case of Pokemon, this early competitive support means lots of people got to go to tournaments and experience playing against "a deck consisting of efficient non-evolving pokemon and energy destruction"!
 
-Sometimes, a contemporary writer will try to cover "the early Pokemon trading card game's metagame" and will list a few strategies. They'll generally be left scrabbling to find strategies that *aren't* "just use the efficient non-evolving ones"; they'll likely mention the <span class="showhim">
-  <a href="https://pkmncards.com/card/blastoise-base-set-bs-2/">Blastoise
-    <img src="/media/pkmn-history/blastoise-base-set-bs-2.webp" class="showme">
-  </a> 
-</span> / Rain Dance strategy, <span class="showhim">
-  <a href="https://pkmncards.com/card/wigglytuff-jungle-ju-16/">Wigglytuff
-    <img src="/media/pkmn-history/wigglytuff-jungle-ju-16.webp" class="showme">
-  </a> 
-</span> "Do the Wave", and if they're especially good researchers then they may talk about Moltres+Chansey Stall/Mill. The latter two archetypes are pretty good, too. Rain Dance is rather bad, though. *Back in the late 90s*, people hadn't figured this out, so contemporaneous sources would talk about it being good. It turns out, "being able to play as many energy as you can access, *if* you can evolve", is a fragile strategy! You might not find your combo pieces. You might get forced to start the game with just a <span class="showhim">
-  <a href="https://pkmncards.com/card/squirtle-base-set-bs-63/">Squirtle
-    <img src="/media/pkmn-history/squirtle-base-set-bs-63.webp" class="showme">
-  </a> 
-</span>; you plausibly get one-turn killed by a *lot* of unevolved-pokemon-deck's opening hands in this situation.
+Sometimes, a contemporary writer will try to cover "the early Pokemon trading card game's metagame" and will list a few strategies. They'll generally be left scrabbling to find strategies that *aren't* "just use the efficient non-evolving ones"; they'll likely mention the 
+{% unicard /media/pkmn-history/blastoise-base-set-bs-2.webp https://pkmncards.com/card/blastoise-base-set-bs-2/ Blastoise %} / Rain Dance strategy, {% unicard /media/pkmn-history/wigglytuff-jungle-ju-16.webp https://pkmncards.com/card/wigglytuff-jungle-ju-16/ Wigglytuff %} "Do the Wave", and if they're especially good researchers then they may talk about Moltres+Chansey Stall/Mill. The latter two archetypes are pretty good, too. Rain Dance is rather bad, though. *Back in the late 90s*, people hadn't figured this out, so contemporaneous sources would talk about it being good. It turns out, "being able to play as many energy as you can access, *if* you can evolve", is a fragile strategy! You might not find your combo pieces. You might get forced to start the game with just a {% unicard /media/pkmn-history/squirtle-base-set-bs-63.webp https://pkmncards.com/card/squirtle-base-set-bs-63/ Squirtle %}; you plausibly get one-turn killed by a *lot* of unevolved-pokemon-deck's opening hands in this situation.
 
 For the curious, there are [strategic resources] out there specifically about the earliest Pokemon formats. There is a very cool [Discord server], also focused on retro Pokemon formats, particularly base-jungle-fossil. If you aren't put off by the strong non-evolving Pokemon and the rampant land destruction, you actually can play this (twenty years out of date!) format, in paper, via webcam, on that server. It's part of a recent broader trend of forming communities for webcam-based play for older or less accessible trading card game formats. There's one for [legacy Magic], too.
 

@@ -305,7 +305,9 @@ body > footer {
     margin: 0;
   }
   p.source {
-    background-color: $sidebar-bg;
+    background-image: linear-gradient(to right, rgba($main-bg, 0.7), rgba($sidebar-bg, 0.6));
+    border: 1px solid $alyssa-royalpurple;
+    //background-color: $sidebar-bg;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     
