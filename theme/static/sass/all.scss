@@ -711,7 +711,7 @@ article {
     --quip: "Well, actually,";
     --fg-color: #d77bba;
     // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --bg-color: unquote("#d77bba20");
+    --bg-color: #d77bba30;
     --image: url(/theme/images/asides/well-actually.png);
   }
   aside.aside--note-from-future {
@@ -914,9 +914,11 @@ a.photo {
     margin: 0.5em;
     /* image is 64 x 48, shown double size (except on phones) */
     min-height: 128px;
-    padding-left: 96px;
-    border-bottom: 2px solid black;
-    background: url(/theme/images/logo-code.png) no-repeat left top / 96px;
+    //padding-left: 96px;
+    border-left: 2px solid $alyssa-manatee;
+    border-bottom: 2px solid $alyssa-manatee;
+    border-radius: 0 0 0 1rem;
+    //background: url(/theme/images/logo-code.png) no-repeat left top / 96px;
     /* lol css */
     image-rendering: -moz-crisp-edges;  /* fx */
     image-rendering: pixelated;  /* chrome, and the thing i actually mean */

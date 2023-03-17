@@ -87,26 +87,26 @@ JINJA_FILTERS = dict(
   sort_by_article_count=sort_by_article_count,
 )
 
-EXTRA_HEADER = """
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
-<script type="text/javascript">
-  $(function() {
-    $('article').each(function(index, article) {
-      $(article).find('a.photo').colorbox({
-        fixed: true,
-        maxWidth: '100%',
-        maxHeight: '100%',
-        rel: 'colorbox' + String(index + 1),
-        // Text
-        previous: '←',
-        next: '→',
-        close: '×',
-      });
-    });
-  });
-</script>
-"""
+#EXTRA_HEADER = """
+#<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+#<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+#<script type="text/javascript">
+#  $(function() {
+#    $('article').each(function(index, article) {
+#      $(article).find('a.photo').colorbox({
+#        fixed: true,
+#        maxWidth: '100%',
+#        maxHeight: '100%',
+#        rel: 'colorbox' + String(index + 1),
+#        // Text
+#        previous: '←',
+#        next: '→',
+#        close: '×',
+#      });
+#    });
+#  });
+#</script>
+#"""
 
 # Smart quotes and other things
 TYPOGRIFY = True

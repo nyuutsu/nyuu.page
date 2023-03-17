@@ -29,15 +29,14 @@
 
     <section class="comments"> 
       <h1>Comments!</h1>
-      <script data-isso="//comments.nyuu.page/" src="//comments.nyuu.page/js/embed.min.js">
-      </script>
+      <!--to get your own hash you'll need to make a comment on your site, inspect the page to see the hash data attribute on the comment, and put that in your article template's isso script's author-hashes attribute-->
+      <script data-isso="//comments.nyuu.page/"
+              data-isso-css-url="https://nyuu.page/theme/sass/isso.css"
+              data-isso-default-lang="en"
+              data-isso-page-author-hashes="8390471b4511"
+              data-isso-reply-notifications-default-enabled="true"
+              src="//comments.nyuu.page/js/embed.min.js"></script>
       <section id="isso-thread">
-        <noscript>
-          <p>You are seeing this because you are not allowing javascript to run on this page. Or, possibly on any page. Good on you! The only javascript used on this website is to make a shadowbox thing work for some image display modes, and these comment boxes below the articles. So you <em>seriously</em> aren't missing much. The pages still displaying and having their decorations isn't an accident; it is really important to me that as much as possible will still work without Javascript.</p>
-          <p>For what it's worth, I'm also not running any analytics. Snooping on how you use my content seems sort of unfriendly, to me, so I don't. If you like the post, talk to me about it (whether in the comments or on twitter or on discord or whatever)</p>
-          <p>If you want to use the comments, enable the script coming from <code>https://comments.nyuu.page</code>. You shouldn't need to enable any others; complain at me if this proves to not be the case and i'll fix it.</p>
-          <p>The comment widget is powered by <a href="https://isso-comments.de/">Isso</a> & so far as I can tell it is very cool.</p>
-        </noscript>
       </section>
     </section>
   </article>

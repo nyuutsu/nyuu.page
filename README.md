@@ -1,19 +1,25 @@
-This is the source for (most of) my website [nyuu.page](https://nyuu.page). It's powered by [Pelican][], a Python static blog system. I cribbed a bunch from [eevee's site](https://github.com/eevee/eev.ee).
+This is the source for (the static parts of) my website [nyuu.page](https://nyuu.page). The relevant part of my caddyfile can be found [here](https://gist.github.com/nyuutsu/5b11bce0e7c415926934caa08994ab4c)
 
-If you want to use this, you may want the following: `git`, `python`, `pelican`, `markdown`, `rsync`, `sass`, a server…
+### how do I do this
 
-  If you want a *server*: I'm a fan of [Caddy](https://caddyserver.com/). The relevant part of my caddyfile can be found [here](https://gist.github.com/nyuutsu/5b11bce0e7c415926934caa08994ab4c)
+* clone it somewhere (`git`, `ssh`…)
 
-All that said, if you want to use this as-is for some reason:
-
-1. You'll need the pelican plugins
+* you'll need the pelican plugins (`python`, `pip`, `pelican`)
 
 `git submodule update --init`
 
-2. Alias i'm using to generate and deploy is very silly, and is listed below
+* you'll need the stuff listed in the requirements file
 
-`alias nyuu.page='cd ~/repos/nyuu.page && sass theme/static/sass/all.scss theme/static/sass/all.css && pelican content && rsync -avc --delete output/ nyuu.page:/var/www/html/ && rm theme/static/sass/all.css & rm theme/static/sass/all.css.map'`
+`pip install -r requirements.txt` (old `markdown`, etc)
 
-Whereas if you want to make changes then you should probably set up something to recompile the css every time you make changes, and run `make devserver` to make observing the changes easy.
+### how do I put this online
+
+what *i'm* doing is using this alias:
+
+`alias nyuu.page='cd ~/repos/nyuu.page && sass theme/static/sass/all.scss theme/static/sass/all.css && make publish && rsync -avc --delete output/ nyuu.page:/var/www/ && rm theme/static/sass/all.css & rm theme/static/sass/all.css.map'` (`sass, rsync`)
+
+### how do I test changes
+
+You'll want to set up live sass recompilation, and run `make devserver`
 
 [Pelican]: http://docs.getpelican.com/

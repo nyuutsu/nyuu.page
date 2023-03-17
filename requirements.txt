@@ -1,0 +1,4 @@
+Markdown<3.2
+piexif
+html5lib
+typogrify
