@@ -3,7 +3,6 @@
 AUTHOR = 'nyuu'
 SITENAME = 'nyuu dot page'
 SITEURL = ''
-#SITESUBTITLE = ...
 
 TIMEZONE = 'America/New_York'
 DEFAULT_DATE_FORMAT = '%a %b %d, %Y'
@@ -17,56 +16,46 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Links and social cruft
 # NOTE: These aren't called just LINKS and SOCIAL because those are assumed by
 # the default theme to be 2-tuples, but I need more info.
-LINKS_EX = ((
-  'blog',
+LINKS_EX = (
+(
+  '⏎ posts',
   '/blog/',
   '#9966cc', 'category-blog.png',
   "「unlimited post works」",
 ), (
-  'notes',
+  '⏎ notes',
   '/notes/',
   '#9966cc', 'category-notes.png',
-  "same great taste; less filling",
+  "just the tips",
 ), (
-#  'release',
-#  '/release/',
-#  '#4a83c5', 'category-release.png',
-#  "things i've released into the wild, and maybe my thoughts on them",
-#), (
-#  'art',
-#  '/art/',
-#  '#41c518', 'category-art.png',
-#  "i'm learning to draw, here are the results",
-#), (
-  'everything',
+  '⌥ everything (feed)',
   '/everything/',
   '#c57be6', 'category-everything.png',
-  "why limit yourself when you can have it all",
+  "both of the kinds of posts",
 ), (
-  'archives',
+  '⌥ everything (list)',
   '/everything/archives/',
   '#399ccd', 'category-archives.png',
-  "turn the clock back to æons past",
+  "walk the æons",
 ))
-# FIXME this is duplicated from home.html; maybe consolidate
+
 SOCIAL_EX = ((
   'email',
   'mailto:nyuutsu@protonmail.com',
   '#9966cc', 'logo-email.png',
-  "do people still use this",
+  "the true name",
 ), (
   'twitter',
   'https://twitter.com/shroomwaview',
   '#55acee', 'logo-twitter.png',
-  "firehose of bad jokes",
+  "realm of wind and ghosts",
 ), (
   'github',
   'https://github.com/nyuutsu',
   '#4183c4', 'logo-github.png',
-  "lots of abandoned code",
+  "attempts that have been made",
 ))
 TWITTER_USERNAME = 'shroomwaview'
 GITHUB_URL = 'https://github.com/nyuutsu'
@@ -86,27 +75,6 @@ def sort_by_article_count(tags):
 JINJA_FILTERS = dict(
   sort_by_article_count=sort_by_article_count,
 )
-
-#EXTRA_HEADER = """
-#<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-#<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
-#<script type="text/javascript">
-#  $(function() {
-#    $('article').each(function(index, article) {
-#      $(article).find('a.photo').colorbox({
-#        fixed: true,
-#        maxWidth: '100%',
-#        maxHeight: '100%',
-#        rel: 'colorbox' + String(index + 1),
-#        // Text
-#        previous: '←',
-#        next: '→',
-#        close: '×',
-#      });
-#    });
-#  });
-#</script>
-#"""
 
 # Smart quotes and other things
 TYPOGRIFY = True
