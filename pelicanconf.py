@@ -101,7 +101,7 @@ MARKDOWN = dict(
 PATH = 'content/'
 PAGE_PATHS = ['../pages/']
 PATH_METADATA = '../pages/(?P<fullpath>.+)[.].+'
-STATIC_PATHS = ['favicon.png', 'media/', 'dev/media/']
+STATIC_PATHS = ['favicon.png', 'media/']
 
 # Leave .html alone; I only use it for static attachments, not posts
 READERS = dict(html=None)
@@ -176,7 +176,8 @@ PLUGINS = [
   'photos',
   'render_math',
   'thumbnailer',
-  'simple_footnotes'
+  'simple_footnotes',
+  'embed_tweet'
 ]
 
 # Plugin config for summary
