@@ -175,7 +175,7 @@ body > header {
   position: relative;
   margin: 1em 0 0;
   min-height: 128px;  // background height
-  background: url(/theme/images/logo-code.png) no-repeat left bottom / 96px;
+  //background: url(/theme/images/logo-code.png) no-repeat left bottom / 96px;
   /* lol css */
   image-rendering: -moz-crisp-edges;  /* fx */
   image-rendering: pixelated;  /* chrome, and the thing i actually mean */
@@ -191,9 +191,9 @@ body > header {
   h1 {
     position: absolute;
     font-size: 4em;
-    margin: 0 2rem;
-    bottom: 0;
-    right: 0;
+    margin: 0rem;
+    bottom: 1rem;
+    left: 1rem;
     padding: 0;
     font-family: 'Special Elite', cursive;
     text-shadow: 5px 5px 0 $main-bg;
@@ -1291,6 +1291,8 @@ table.highlighttable {
 
   pre {
     margin: 0;
+    overflow-x: auto;
+    word-wrap: break-word;
   }
 
   td {
