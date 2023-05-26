@@ -176,8 +176,7 @@ PLUGINS = [
   'photos',
   'render_math',
   'thumbnailer',
-  'simple_footnotes',
-  'embed_tweet'
+  'simple_footnotes'
 ]
 
 # Plugin config for summary
