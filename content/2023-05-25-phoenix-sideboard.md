@@ -136,6 +136,8 @@ This makes sense to me:
 
 However: spirits has a *lot* of mechanics and many of them make it possible for an experienced player to trick the opponent. It's important to know what the deck can do, so you can plan ahead around "if I do x, they might do y or z. Depending on which, I will do a or b...". You not knowing they can give a spirit hexproof at instant speed, for example, would give them an advantage.
 
+We're going to tweak your sideboard to be *very* anti-spirits. Most Phoenix sideboards make more concessions to fighting ramp and control, but I'm not seeing these at our store.
+
 ## Rules & Rulings & Conventions
 
 * The copy made by {% unicard {static}/media/phoenix-sideboard/mid-224-galvanic-iteration.jpg Galvanic Iteration %} does not count as "casting" a spell
