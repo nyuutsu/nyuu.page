@@ -174,8 +174,6 @@ They're going to try to exile the {% unicard {static}/media/phoenix-sideboard/gr
 
 ### Specific matchups
 
-Not going to give exact numbers for how many copies to take out; go based on vibes. If you're on the draw then you expect to be on the defensive so keep in more of the cheap and interactive stuff to try to resist their early aggression
-
 #### Green Devotion
 
 This is the second most popular deck in the format. I don't think I've seen it played at our store. Our sideboard is weak against them since we're focusing so much on anti-aggro. If you do face them: their thing is to ramp a lot and then cast a huge thing that wins the game. For example: {% unicard /media/phoenix-sideboard/mid-200-storm-the-festival.jpg Storm the Festival %}. 
