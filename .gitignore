@@ -3,6 +3,7 @@
 .*.sw*
 .ropeproject/
 __pycache__/
+*_venv/
 
 # Pelican detritus
 /pelican.pid

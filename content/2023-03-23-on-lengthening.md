@@ -98,8 +98,6 @@ The latter is able to show about twice as many lines (use the black box present 
 
 If you have an ultrawide monitor you probably never open up a plaintext document in fullscreen with no wordwrap and then read the document using the entire monitor. That monitor is useful for multitasking and movies, but you would probably not display or read a book on that monitor as one giant window. It isn't suited for "read from left to right, then at the end go all the way back to the left and down by one, then repeat". The distance between the start and the end of the lines is too large for this to be a good experience so people don't do it.
 
-One way to take advantage of, of course, is to split your screen into multiple windows. e.g. multiplexing five terminal windows.
-
 Websites figure you don't want to do that and won't let you. Below is an (anonymized) screenshot, this time of what I see when I visit twitter. This is as viewed on a typical 1920x1080 monitor:
 
 {% illus /media/vertical-space/twitter-horizontal-padding.png twitter viewed in my web browser with the padding indicated in red and the content indicated in blue %}
