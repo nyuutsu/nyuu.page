@@ -1549,7 +1549,7 @@ $colorbox-bottom-margin: 4rem;
   @include phone-size {
     font-size: 1rem;
     padding: 0.5rem;
-    line-height: math.div(($colorbox-bottom-margin - 1rem), 3);
+    line-height: ($colorbox-bottom-margin - 1rem) / 3;
   }
 }
 #cboxPrevious,
