@@ -2,3 +2,6 @@ Markdown<3.2
 piexif
 html5lib
 typogrify
+pelican
+bs4
+Pillow<8.0.0

@@ -2,6 +2,7 @@ title: early yugioh was weird
 date: 2023-2-12 00:00
 category: blog
 tags: trading card games, Yu-Gi-Oh!™
+modified: 2023-7-20 00:00
 
 <!--Technology is incredible!-->
 
@@ -11,7 +12,11 @@ I am a huge fan of card games, in general. The one that has held the lion's shar
 
 I was born a *bit* too late to play Magic on-release. I was one year old at the time, so, I probably wouldn't have had the dexterity needed to shuffle effectively. I was born at just the right time to catch the beginning of some other card games, though: Pokemon and Yu-Gi-Oh. This post is about localization trivia about the latter.
 
+*Edit for clarification: I'm talking about the game circa the release of the first English set. This was the "[Yugi-Kaiba Format](https://www.formatlibrary.com/formats/yugi-kaiba)". Many of the rough edges discussed aren't true anymore, and some of them stopped being true very quickly.*
+
 I am going to explain mechanics by alluding and comparing to what *Magic* does.
+
+---
 
 <!-- more -->
 
@@ -155,7 +160,7 @@ E1's [contents] don't make much sense. It has 126 cards, here is their type brea
 
     Fusions aren't meaningfully stronger than their component material. They're *slightly* stronger than their components, but the components are often really bad. You can often play stronger things of a given cost *for free*.
 
-Much of the strangeness has to do with how E1 is not "an english translation of the first Japanese set". E1 is "assorted cards sourced from various sets printed in the first year and a half of the Japanese game". And during the timeframe those sets were printed in, there was a *fuckton* of power creep.
+Much of the strangeness is downstream of how E1 is not "an english translation of the first Japanese set". E1 is "assorted cards sourced from various sets printed in the first year and a half of the Japanese game". And during the timeframe those sets were printed in, there was a *fuckton* of power creep.
 
 The first [Japanese set][ocg 1st] comes out in January of '99. Sets continue to come out at a rate of about one per month. Which might sound *deliriously quick* to someone used to the Magic standard-legal set release schedule, but, these sets are *small*; 40-50 cards small. They're also fairly reprint heavy.
 
@@ -165,9 +170,9 @@ Regardless: Japanese Yu-Gi-Oh got lots of new sets over next few years. One of t
 
 * J1's strongest 4★ has an attack of ⚔1200. The set contains three ⚔1200 creatures. J1 had exactly one 4★; the limited cardpool forced you to include some 3★s and probably some 2 and/or 1★s also. The player probably does not have the ability to field playsets of all the ⚔1200 creatures *anyway* since there are no card shops or vendors other than "the vending machine the packs come from".
 
-    By the time all the sets drawn on in E1 set had come out, the power level for a ≤5★ had risen *considerably*, in terms of how strong the individual options were, and in how many options existed. You no longer had to include a bunch of bad stuff just to reach the deck size requirement.
+By the time all the sets drawn on in E1 set had come out, the power level for a ≤5★ had risen *considerably*, in terms of how strong the individual options were, and in how many options existed. You no longer had to include a bunch of bad stuff just to reach the deck size requirement.
 
-    As for how the cards *selected for inclusion in E1* were selected: my best guess is that the localizers were selecting for iconic-ness and for hitting a target amount of cards at each amount of ★s, even though at this point 1★ 2★ and 3★ were now basically design relics rather than meaningful content in their own right. The same is probably true of the fusions. It certainly wasn't done to improve the play experience or average competitive relevance of a typical pack.
+As for how the cards *selected for inclusion in E1* were selected: my best guess is that the localizers were selecting for iconic-ness and for hitting a target amount of cards at each amount of ★s, even though at this point 1★ 2★ and 3★ were now basically design relics rather than meaningful content in their own right. The same is probably true of the fusions. It certainly wasn't done to improve the play experience or average competitive relevance of a typical pack.
 <!--Use a zero width space ("​") between a closing tag and a quotation mark or the smart-quotifier gets confused-->
 * The names on the cards are weird: this was often done in localization & not present on the originals! {%unicard /media/ygo-history/SteelOgreGrotto1-LOB-NA-C-1E.webp https://static.wikia.nocookie.net/yugioh/images/3/30/SteelOgreGrotto1-LOB-NA-C-1E.jpg/revision/latest?cb=20090329055229 Steel Ogre Grotto #1 %}​'s name in Japanese is  
 <ruby>
@@ -190,6 +195,16 @@ Regardless: Japanese Yu-Gi-Oh got lots of new sets over next few years. One of t
 ### conclusion
 
 Making a game is really hard.
+
+---
+
+### resources
+
+[Format Library] is a cool resource.
+
+[Goat Format] is the most popular retro format.
+
+---
 
 <small>¹ Duel Monsters is, in some early material, referred to by the less catchy name "Magic and Wizards"</small>
 
@@ -221,3 +236,5 @@ Making a game is really hard.
 [vanilla]: https://mtg.fandom.com/wiki/Vanilla
 [contents]: https://yugioh.fandom.com/wiki/Set_Card_Galleries:Legend_of_Blue_Eyes_White_Dragon_(TCG-EN-UE)
 [subitize]: https://en.m.wikipedia.org/wiki/Subitizing
+[Format Library]: https://www.formatlibrary.com/formats/
+[Goat Format]: https://www.goatformat.com/

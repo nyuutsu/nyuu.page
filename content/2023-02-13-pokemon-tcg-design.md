@@ -19,7 +19,7 @@ At the beginning, Pokemon had [one set][Base Set]; the Base Set. We can look at 
 
 It *looks* like the core mechanical selling point was supposed to be about a rising power level over the course of the game via the *evolution* mechanic. The way evolution works is, you can use later, stronger evolutionary stages of a given Pokemon, but fonly if you already have the unevolved form in play, and only if it has survived at its current stage for at least one turn already. Some Pokemon evolve no times, some once, and some twice. The cards have rarities; the packs they came in would come with more commons and fewer rares. Second-stage evolutions were pretty much exclusively found at the highest rarity and made up much of the rare pool. There were a few fancy, shiny foil-art cards; all of them Pokemon, most of them second-stage evolutions.  The marketing I remember seeing as a kid was about getting to use evolution to play a {% unicard /media/pkmn-history/charizard-base-set-bs-4.webp https://pkmncards.com/card/charizard-base-set-bs-4/ Charizard %}. Evolution is flavorful; it's cool; it's strategically *awful*.[ref]evolution was bad at the time. it might be good now[/ref]
 
-*Aside: the first set has 102 cards. The card-type breakdown is 69 Pokemon, 26, trainers, 7 energy. The trainers focus on lots of different mechanics. Two of them ({% unicard /media/pkmn-history/devolution-spray-base-set-bs-72.webp https://pkmncards.com/card/devolution-spray-base-set-bs-72/ Devolution Spray %}, {% unicard /media/pkmn-history/pokemon-breeder-base-set-bs-76.webp https://pkmncards.com/card/pokemon-breeder-base-set-bs-76/ Pokemon Breeder %}) are "about" evolution and an additional handful could benefit evolution-based strategies but weren't *about* them. It'd be fair to say trainers are not intended to be "about" evolution. Pokemon are **about evolution**. 53/69<sup>(77%!)</sup> of them evolve or are evolved*.[ref]of the quarter that don't have evolutions evolve, a bunch gain evolutions in Jungle and/or Fossil. This game is <em>about evolution[/ref]
+*Aside: the first set has 102 cards. The card-type breakdown is 69 Pokemon, 26, trainers, 7 energy. The trainers focus on lots of different mechanics. Two of them ({% unicard /media/pkmn-history/devolution-spray-base-set-bs-72.webp https://pkmncards.com/card/devolution-spray-base-set-bs-72/ Devolution Spray %}, {% unicard /media/pkmn-history/pokemon-breeder-base-set-bs-76.webp https://pkmncards.com/card/pokemon-breeder-base-set-bs-76/ Pokemon Breeder %}) are "about" evolution and an additional handful could benefit evolution-based strategies but weren't about them. It'd be fair to say trainers are not intended to be "about" evolution. Pokemon are **about evolution**. 53/69<sup>(77%!)</sup> of them evolve or are evolved.[ref]of the quarter that don't have evolutions evolve, a bunch gain evolutions in Jungle and/or Fossil. This game is <em>about evolution</em>[/ref]*
 
 Evolution could be great if the evolved forms were sufficiently stronger (more health, more damage per energy, more raw damage) than the non-evolving Pokemon. They aren't; evolving isn't profitable. Your attacks get stronger, which is flashy and cool! But your attacks also get more expensive, which is a huge problem and makes it impossible to *actually do damage*.
 
@@ -54,11 +54,11 @@ Parting thought: check out my BJF decks! The discord server I mentioned in the p
 
 In cases where I didn't have a desired card in time for the deck registration photo but expected I'd have it in time for my actual matches, I sometimes used proxies. So there are a few obvious "fakes" in these. I still think they're cool, though:
 
-{% gallery /media/pkmn-history
-  pkmndeck1.jpg haymaker
-  pkmndeck2.jpg rain dance
-  pkmndeck3.jpg stall
-%}
+{% illus /media/pkmn-history/pkmndeck1.jpg haymaker %}
+
+{% illus /media/pkmn-history/pkmndeck2.jpg rain dance %}
+
+{% illus /media/pkmn-history/pkmndeck3.jpg stall %}
 
 [base set]: https://pkmncards.com/set/base-set/
 [jungle]: https://bulbapedia.bulbagarden.net/wiki/Jungle_(TCG)
