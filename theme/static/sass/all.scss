@@ -674,94 +674,77 @@ article {
   kbd + kbd {
     margin-left: 0.25em;
   }
-
-  // Asides, styled like in my book with room for an icon on the left
-  aside {
+  
+  // forum post simulator
+  .forum-post {
+    --fg-color: #d77bba;
+    --bg-color: unquote("#d77bba30"); // does anything?
+    background: var(--bg-color);
+    border: 0.1em solid var(--fg-color);
     margin: 1em 0;
     padding: 1em;
-    background: var(unquote(--bg-color));
-    border-left: 0.25em solid var(unquote(--fg-color));
+    display: flex; 
+    flex-direction: column;
+  
+    // pfp & username
+    .post-hero {
+      content: var(--image) var(--quip);
+      font-size: 1.2em;
+      display: flex;
+      gap: 0.33rem;
+      align-items: center;
+      height: 1.25em;
+      width: 100%;
+      margin-bottom: 0.5em;
+      border-bottom: 1px solid var(--fg-color);
+      color: var(--fg-color);
+    }
 
-    --quip: "Note";
+    // everything below/other than pfp + name
+    .post-nonhero {
+      display: flex;
+      gap: 1em;
+    }
 
-    // 🐍 in the color picker tool, this is the background/highlight color of selected text segments in asides. in normal conditions this might not appear at all!
-    --fg-color: #d0d0d0;
-    --bg-color: unquote("#d0d0d020");
-    --image: url(/theme/images/asides/note.png);
-  }
-  aside p:last-child {
-    margin-bottom: 0;
-  }
-  aside::before {
-    // I can't believe I get away with this, but a flexbox allows me to
-    // align the image AND have it peek out below the border a bit
-    content: var(unquote(--image)) var(unquote(--quip));
+    // the "postbit": title, postcount, etc
+    .postbit {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2em;
+      align-items: flex-start;
 
-    font-size: 1.2em;
-    display: flex;
-    gap: 0.33rem;
-    align-items: center;
+      .post-count, .user-title {
+        font-size: 0.8em;
+        color: var(--fg-color);
+        white-space: nowrap;
+      }
 
-    height: 1.25em;
-    margin-bottom: 0.5em;
-    border-bottom: 1px solid var(unquote(--fg-color));
-    color: var(unquote(--fg-color));
+      // cubes representing postcount
+      .postcount-widget {
+        display: flex;
+        gap: 2px;
+        // one cube
+        .postcount-cube {
+          width: 10px;
+          height: 10px;
+          background-color: var(--fg-color);
+        }
+      }
+    }
+    
+    // the "content" part of the post
+    .postbody {
+      flex-grow: 1; // does flex-grow do anything here?
+      border-left: 1px solid var(--fg-color);
+      padding-left: 1em;
+    }
+
   }
-  aside.aside--well-actually {
-    --quip: "Well, actually,";
-    --fg-color: #d77bba;
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --bg-color: #d77bba30;
-    --image: url(/theme/images/asides/well-actually.png);
-  }
-  aside.aside--note-from-future {
-    --quip: "Note from the future";
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --fg-color: #5b6ee1;
-    --bg-color: unquote("#5b6ee120");
-    --image: url(/theme/images/asides/note-from-the-future.png);
-  }
-  aside.aside--computers-are-bad {
-    --quip: "Computers are bad";
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --fg-color: #ac3232;
-    --bg-color: unquote("#ac323220");
-    --image: url(/theme/images/asides/computers-are-bad.png);
-  }
-  aside.aside--fascinating-tangent {
-    --quip: "Fascinating tangent";
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --fg-color: #3f3f74;
-    --bg-color: unquote("#3f3f7420");
-    --image: url(/theme/images/asides/fascinating-tangent.png);
-  }
-  aside.aside--matter-of-taste {
-    --quip: "A matter of taste";
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --fg-color: #76428a;
-    --bg-color: unquote("#76428a20");
-    --image: url(/theme/images/asides/matter-of-taste.png);
-  }
-  aside.aside--look-out {
-    --quip: "Look out!";
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --fg-color: #df7126;
-    --bg-color: unquote("#df712620");
-    --image: url(/theme/images/asides/look-out.png);
-  }
-  aside.aside--tricky-tradeoff {
-    --quip: "Tricky tradeoff";
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --fg-color: #45283c;
-    --bg-color: unquote("#45283c20");
-    --image: url(/theme/images/asides/tricky-tradeoff.png);
-  }
-  aside.aside--deceptively-difficult {
-    --quip: "Deceptively difficult";
-    // 🐍 this and its compatriots are the left-border accent bar of the asides
-    --fg-color: #4b692f;
-    --bg-color: unquote("#4b692f20");
-    --image: url(/theme/images/asides/deceptively-difficult.png);
+
+  // "reply" posts are indented to imply nesting
+  .forum-reply {
+    position: relative;
+    left: 1rem;
   }
 }
 
